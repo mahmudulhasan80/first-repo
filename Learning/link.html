@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .registerbtn {
+            background-color: blue;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 25%;
+            opacity: 0.9;
+            }
+
+        .registerbtn:hover {
+            opacity: 1;
+            }
+        form[type=text], select, textarea {
+            width: 50%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+}
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <div>
+            <br><b>Full Name </b><input type="text" name="Full Name" placeholder="Full Name"></br>
+            <br><b>Email </b><input type="text" name="E-mail" placeholder="E-mail"></br>
+            <br><b>Password </b><input type="password" name="password" placeholder="Password"></br>
+        </div>
+
+
+        <div>
+            <br>
+            <b>Countries</b>
+            <input name="Country" list="Countries" placeholder="Country">
+            <datalist id="Countries">
+                <option value="Bangladesh">
+                <option value="Peru">
+                <option value="Afgansthan">
+                <option value="India">
+                <option value="Malaysia">
+                <option value="Singapore">
+                <option value="Nepal">
+                <option value="Bhutan">
+                <option value="Pakistan">
+                <option value="Iraq">
+                <option value="Iran">
+                <option value="Mongolia">
+                <option value="Canada">
+
+        </br>
+
+        </div>
+
+        <div>
+            <br>
+            <b>Gender</b>
+            <input type="radio" name="Gender" value="Female">Female
+            <input type="radio" name="Gender" value="male">Male
+            <input type="radio" name="Gender" value="Unknown">Unknown
+            </br>
+        </div>
+
+        <div class="nativeDatePicker">
+            <br>
+            <label for="bday"><b>Date of Birth </b></label>
+            <input type="date" id="bday" name="bday">
+            </br>
+        </div>
+
+        <div class="checkbox">
+            <br>
+            <b>Meal Preferance</b>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="meal"> Low calorie</label><br>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="checkbox"> Low salt</label>
+            <input="checkbox" id="checkbox" name="checkbox">
+            <label for="terms">I accept <a href="#">Terms</a>.</label>
+        <br>
+            <button type="submit" class="registerbtn">Register</button>
+        </br>
+        </div>
+
+    </form>
+    
+</body>
+</html>

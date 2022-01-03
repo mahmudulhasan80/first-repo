@@ -1,0 +1,28 @@
+
+
+
+body{
+        
+        background-color: rgba(118, 167, 164, 0.829);
+        image-rendering: auto;
+        background-position: center;
+        background-size: cover;
+        margin: 50px 0px 10px 50px;
+    }
+form{
+    text-align: center;
+    text-decoration-color: rgb(145, 39, 39);
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+}
+#box> div {
+    text-align: justify;
+    background-color: rgb(198, 201, 21);
+    font-size: 20px;
+    border: 80px;
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
